@@ -1,0 +1,14 @@
+DROP SEQUENCE IF EXISTS irongate_seq
+CREATE SEQUENCE irongate_seq;				
+CREATE TABLE irongate (
+bugid 		INTEGER NOT NULL PRIMARY KEY DEFAULT nextval('irongate_seq'),
+code 		VARCHAR(35),
+errorid 	INTEGER,
+template	varchar(200),
+message		varchar(500),
+line		int,
+type		varchar(20),
+etime		date,
+status		smallint,
+viewed		bool
+);

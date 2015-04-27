@@ -1,0 +1,15 @@
+CREATE TABLE [irongate](
+	[bugid] [int] IDENTITY(1,1) NOT NULL,
+	[code] [varchar](35) NULL,
+	[errorid] [int] NULL,
+	[template] [varchar](200) NULL,
+	[message] [varchar](500) NULL,
+	[line] [int] NULL,
+	[type] [varchar](20) NULL,
+	[etime] [datetime] NULL,
+	[status] [tinyint] NULL,
+	[viewed] [bit] NULL,
+	CONSTRAINT [PK_irongate] PRIMARY KEY CLUSTERED  ([bugid] ASC)
+ON [PRIMARY]
+) 
+ON [PRIMARY]

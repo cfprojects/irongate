@@ -1,0 +1,15 @@
+html,body 			{margin:0; padding:0; height:100%; color:#333; font-size:13px}
+label				{font-size:13px}
+.alert a			{border-bottom:1px dotted #FF3300}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input	{font-size:13px; height:18px;}}
+.input-mini, .form-horizontal .input-small, .form-horizontal .input-medium, .form-horizontal .input-large, .form-horizontal .input-xlarge , .form-horizontal .input-xxlarge { height:18px;}
+.radio				{padding-left:10px; padding-right:20px}
+#header				{background-image:url(images/headebg.png); height:39px}
+.bluebox			{background: #B7E6F8; border:1px solid #B7E6F8; margin-left:40px;margin-right:40px;margin-top:20px;-moz-border-radius: 10px;-webkit-border-radius: 10px; border-radius: 10px; -khtml-border-radius: 10px;}
+.formblock			{padding:10px; margin:10px}
+.divider			{background-color:#fff; border:0px; border-bottom:1px dotted #CCC;  padding-top:5px; padding-bottom:5px}
+.settingitem		{border-bottom:1px solid #F0F0F0; padding:5px; }
+.accordinghead		{background-color:#999999; border:1px solid #999999; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; color:#FFFFFF; -webkit-border-radius: 5px; border-radius:5px; -khtml-border-radius: 5px; clear:both; padding:6px; font-weight:bold; margin:2px}
+
+
+

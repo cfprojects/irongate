@@ -1,0 +1,13 @@
+CREATE TABLE irongate (
+bugid 		int(11) NOT NULL AUTO_INCREMENT,
+code 		varchar(35) DEFAULT NULL,
+errorid 	int(11) DEFAULT NULL,
+template 	varchar(200) DEFAULT NULL,
+message 	varchar(500) DEFAULT NULL,
+line 		int(11) DEFAULT NULL,
+type 		varchar(20) DEFAULT NULL,
+etime 		datetime DEFAULT NULL,
+status 		tinyint(4) DEFAULT NULL,
+viewed 		bit(1) DEFAULT NULL,
+PRIMARY KEY (bugid)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
